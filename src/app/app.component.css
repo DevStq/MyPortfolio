@@ -1,7 +1,10 @@
- body
- {
-    background: linear-gradient(135deg, #537cae, #740b0b); /* Gradient background */;
- }
+body {
+  background: linear-gradient(135deg, #537cae, #740b0b); /* Gradient background */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+    
+}
+
  /* ----------------------------- 
    General Container Styles 
 ----------------------------- */
@@ -387,7 +390,7 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width: 993px) {
     .footer-content {
       flex-direction: column;
       text-align: center;
@@ -395,6 +398,24 @@
   
     .footer-section {
       margin-bottom: 1.5rem;
+    }
+    .card-body {
+      flex-direction: column; /* Stack skill icons vertically on mobile */
+      align-items: center; /* Center align */
+    
+    }
+  
+    .skillicon {
+ 
+      flex-direction: row; /* Keep skill cards in a row */
+      align-items: center; /* Center align */
+      flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
+  
+    .skillicon .card {
+      margin: 10px; /* Maintain margin for cards on mobile */
+      min-width: 100px; /* Set a minimum width for cards */
+      max-width: 120px; /* Set a maximum width for cards */
     }
   }
   
