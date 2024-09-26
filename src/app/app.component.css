@@ -1,10 +1,23 @@
 body {
-  background: linear-gradient(135deg, #537cae, #740b0b); /* Gradient background */
+  background: linear-gradient(135deg, #2b3143, #18174e); /* Gradient background */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
-    
+  font-family: 'Roboto', sans-serif;
 }
-
+/* Headings use Montserrat */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; /* Bold for headings */
+  margin: 10px 0;
+}
+h5{
+  color: rgb(209, 209, 209);
+}
+/* Use Fira Code for any code or preformatted text */
+code, pre {
+  font-family: 'Fira Code', monospace;
+  font-size: 1em;
+}
  /* ----------------------------- 
    General Container Styles 
 ----------------------------- */
@@ -504,3 +517,5 @@ body {
       color: rgb(255, 255, 255);/* Adjust color as needed */
   padding: 2%;
     }
+    
+ 

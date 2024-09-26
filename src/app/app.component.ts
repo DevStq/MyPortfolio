@@ -47,4 +47,5 @@ export class AppComponent {
   toggleLargeBox(project: Project) {
     project.isVisible = !project.isVisible; // Toggle visibility for the selected project
   }
+  
 }
