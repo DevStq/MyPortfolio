@@ -15,13 +15,6 @@ interface Project {
 export class AppComponent {
   projects: Project[] = [
     {
-      title: 'EPG - Electronic Payment Gateway',
-      shortDescription: 'Comprehensive payment platform for secure online transactions.',
-      details: `EPG is a next-generation payment platform developed by e& enterprise, designed to offer secure electronic payment services. The platform not only processes transactions but also provides management services for customers and transactions. It securely connects merchants (sellers of products or services) with banks and financial institutions to process transactions online. This application is being developed using Angular 14.`,
-      isVisible: false,
-      link: 'https://demo-ipg.ctdev.comtrust.ae/Dev_EPGPortal/index.html#/login', 
-    },
-    {
       title: 'MadinaLibrary',
       shortDescription: 'A digital library for borrowing and returning books.',
       details: `MadinaLibrary is a comprehensive digital library application that facilitates the borrowing and returning of books. The backend is powered by Firebase, ensuring seamless authentication and secure storage of user data and book information. All functionalities, including user registration, book borrowing, and returns, are fully implemented, providing an intuitive user experience. The design has been completed, making it easy for users to navigate through the library's resources.`,
